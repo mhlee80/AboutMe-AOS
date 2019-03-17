@@ -14,4 +14,5 @@
         between the lines\n\n
         using the lineSpacingMultiplier property\n\n
         to the TextView.\n\n</string>
+    <string name="what_is_your_name">What is your name?</string>
 </resources>
