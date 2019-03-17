@@ -13,6 +13,12 @@
             android:id="@+id/name_text"
             android:textAlignment="center"
             style="@style/NameStyle"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText" android:textAlignment="center" android:hint="@string/what_is_your_name"/>
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
