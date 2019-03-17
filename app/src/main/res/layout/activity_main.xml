@@ -3,7 +3,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent" android:layout_marginStart="@dimen/padding"
+        android:layout_marginEnd="@dimen/padding">
 
     <TextView
             android:text="@string/name"
@@ -18,4 +19,16 @@
             app:srcCompat="@android:drawable/btn_star_big_on"
             android:id="@+id/star_image" android:contentDescription="@string/yellow_star"
             android:layout_marginTop="@dimen/layout_margin"/>
+    <ScrollView
+            android:id="@+id/bio_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="@string/bio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bio_text"
+                android:lineSpacingMultiplier="@dimen/line_spacing"
+                style="@style/NameStyle"/>
+    </ScrollView>
 </LinearLayout>
