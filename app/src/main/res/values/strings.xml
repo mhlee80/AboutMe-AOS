@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">AboutMe</string>
+    <string name="name">Lee Myeong-Hyeon</string>
+    <string name="yellow_star">Yellow_star</string>
+    <string name="bio">Add\n\n
+        a ScrollView with a TextView\n\n
+        showing information\n\n
+        about yourself to the layout.\n\n
+        Style the TextView with NameStyle,\n\n
+        and add additional styling\n\n
+        to separate the scrollable text\n\n
+        from the edges of the screen.\n\n
+        Add some spacing\n\n
+        between the lines\n\n
+        using the lineSpacingMultiplier property\n\n
+        to the TextView.\n\n</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="done">Done</string>
 </resources>
